@@ -49,7 +49,7 @@ Replace ```-chat_id``` with the number you got from your bot, with ```-```. To u
 
 To run tests with `make test` you have to:
 
-- Create `config.yml` with a valid telegram API key and timezone in the project directory
+- Create `config.yaml` with a valid telegram API key and timezone in the project directory
 - Create `prometheus_bot` executable binary in the project directory
 - Define chat ID with `TELEGRAM_CHATID` environment variable
 - Ensure port `9087` on localhost is available to bind to
